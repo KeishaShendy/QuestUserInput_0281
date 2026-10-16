@@ -29,3 +29,11 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+@Preview(showBackground = true)
+@Composable
+fun FormDataDiriPreview() {
+    MaterialTheme {
+        FormDataDiri(modifier = Modifier)
+    }
+}
